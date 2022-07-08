@@ -1,0 +1,27 @@
+:root {
+  --font-sans: 'Be Vietnam Pro', sans-serif;
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+
+  --text-2xs: 0.8125rem;
+  --text-xs: 0.875rem;
+  --text-sm: 0.9375rem;
+  --text-base: clamp(0.875rem, 0.81rem + 0.26vw, 1rem);
+  --text-lg: clamp(1.875rem, 1.57rem + 1.33vw, 2.5rem);
+  --text-xl: clamp(2.5rem, 2.02rem + 2.13vw, 3.5rem);
+
+  --text-nav: var(--text-base);
+  --text-body: var(--text-base);
+  --text-button: var(--text-2xs);
+  --text-heading: var(--text-xl);
+
+  --color-neutral-900: hsl(0, 0%, 0%);
+  --color-neutral-100: hsl(232, 12%, 13%);
+  --color-primary-400: hsl(228, 39%, 23%);
+  --color-accent-400: hsl(12, 88%, 59%);
+  --color-accent-100: hsl(13, 100%, 96%);
+}

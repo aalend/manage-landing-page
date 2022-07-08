@@ -1,0 +1,16 @@
+@use '../tokens' as *;
+@use '../mixins' as *;
+
+.text {
+  @include utilities('color', $colors);
+}
+
+.bg {
+  @include utilities('background-color', $colors);
+}
+
+.font {
+  @include utilities('font-family', $family);
+  @include utilities('font-size', $fontSize);
+  @include utilities('font-weight', $fontWeight);
+}
